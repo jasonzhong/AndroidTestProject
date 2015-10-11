@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".MainService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.unknow.jason.MainService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
